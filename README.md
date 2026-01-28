@@ -3,3 +3,59 @@
 # Team Project for CSD312x
 
 This is an empty placeholder for your project files.
+
+## Team Organization
+
+### Research Question
+[Your main research question here]
+Primary Research Question
+ How do interdependent XR system parameters—specifically rendering, interaction, and locomotion—jointly influence immersion, presence, flow, and cybersickness across VR and mobile XR platforms?
+Sub-Questions
+1.How does rendering stability mediate the relationship between visual immersion and cybersickness?
+
+
+2.How do interaction affordances and complexity affect user agency and flow?
+
+
+3.How do locomotion techniques shape the trade-off between spatial presence and comfort?
+
+
+4.How does user adaptation over time influence the balance between immersion and usability?
+
+
+### Construct-Based Subteams
+
+#### Rendering Subteam
+| Role | Name | Student ID | GitHub Username | Primary Sections |
+|------|------|------------|-----------------|------------------|
+| Theory Specialist | Bryan Ang | ... | @username | Methodology (Presence measurement), References |
+| Design Analyst | Kang Ting | ... | @username | Discussion (Presence implications) |
+//| Data Analyst | ... | ... | @username | Results (Presence), Data Appendix |
+
+#### Locomotion Subteam
+| Role | Name | Student ID | GitHub Username | Primary Sections |
+|------|------|------------|-----------------|------------------|
+| Theory Specialist | Steven | ... | @username | Methodology (Flow measurement), References |
+| Design Analyst | Sam Tsang | ... | @username | Discussion (Flow implications) |
+//| Data Analyst | ... | ... | @username | Results (Flow), Data Appendix |
+
+#### User-Interaction Subteam
+| Role | Name | Student ID | GitHub Username | Primary Sections |
+|------|------|------------|-----------------|------------------|
+| Theory Specialist | Branson Leo | ... | @username | Methodology ([Construct] measurement), References |
+| Data Analyst | Jun Yong | ... | @username | Results ([Construct]), Data Appendix |
+| Design Analyst | Pin Kai  | ... | @username | Discussion ([Construct] implications) |
+| Design Analyst | Jovan  | ... | @username | Discussion ([Construct] implications) |
+
+#### Overall Coordination
+| Role | Name | Student ID | GitHub Username | Primary Sections |
+|------|------|------------|-----------------|------------------|
+| Overall Coordinator (+ System Properties) | Sherman | ... | @username | Introduction, Conclusion, README, Presentation |
+| User Experience Coordinator | Zen | ... | @username | Introduction, Conclusion, README, Presentation |
+
+
+## Collaboration Strategy
+- **Task Assignment:** GitHub Issues with assignees
+- **Progress Tracking:** GitHub Project Board with milestones
+- **Quality Control:** All edits submitted via Pull Requests with peer review
+- **Communication:** [Your primary channel - Telegram/WhatsApp/Discord] + GitHub discussions on issues
