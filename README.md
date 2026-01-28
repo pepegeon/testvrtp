@@ -23,39 +23,45 @@ Sub-Questions
 4.How does user adaptation over time influence the balance between immersion and usability?
 
 
-### Construct-Based Subteams
+### Properties of Immersion , system and user, Subteams
 
 #### Rendering Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
-| Theory Specialist | Bryan Ang | ... | @username | Methodology (Presence measurement), References |
-| Design Analyst | Kang Ting | ... | @username | Discussion (Presence implications) |
+| Theory Specialist | Bryan Ang | 2301397 | @abyss9408  | Methodology (Presence measurement), References |
+| Design Analyst    | Kang Ting | 2301255 | @ThamK4     | Discussion (Presence implications) |
 //| Data Analyst | ... | ... | @username | Results (Presence), Data Appendix |
 
 #### Locomotion Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
-| Theory Specialist | Steven | ... | @username | Methodology (Flow measurement), References |
-| Design Analyst | Sam Tsang | ... | @username | Discussion (Flow implications) |
+| Theory Specialist | Steven Chew   | 2303348 | @pepegeon       | Methodology (Flow measurement), References |
+| Design Analyst    | Sam Tsang     | 2301552 | @Sam10T         | Discussion (Flow implications) |
 //| Data Analyst | ... | ... | @username | Results (Flow), Data Appendix |
 
 #### User-Interaction Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
-| Theory Specialist | Branson Leo | ... | @username | Methodology ([Construct] measurement), References |
-| Data Analyst | Jun Yong | ... | @username | Results ([Construct]), Data Appendix |
-| Design Analyst | Pin Kai  | ... | @username | Discussion ([Construct] implications) |
-| Design Analyst | Jovan  | ... | @username | Discussion ([Construct] implications) |
+| Theory Specialist | Branson Leo   | 2301321 | @bransonleo     | Methodology ([Construct] measurement), References |
+| Data Analyst      | Jun Yong      | ....... | @username       | Results ([Construct]), Data Appendix |
+| Design Analyst    | Pin Kai       | ....... | @username       | Discussion ([Construct] implications) |
+| Design Analyst    | Jovan Chua    | 2301244 | @kaijovan       | Discussion ([Construct] implications) |
 
 #### Overall Coordination
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
-| Overall Coordinator (+ System Properties) | Sherman | ... | @username | Introduction, Conclusion, README, Presentation |
-| User Experience Coordinator | Zen | ... | @username | Introduction, Conclusion, README, Presentation |
+| Overall Coordinator           | Sherman Goh       | 2301472 | @gsherman01     | Introduction, Conclusion, README, Presentation |
+| + System Properties           |
+| User Experience Coordinator   | Jia Zen Cheong    | 2301549 | @FriedTofu86    | Introduction, Conclusion, README, Presentation |
 
 
 ## Collaboration Strategy
+
+- **Communication:** Telegram and Google Docs
+- **Plan of approach** Week 6/7 1st Round User Testing. 
+
+/*
 - **Task Assignment:** GitHub Issues with assignees
 - **Progress Tracking:** GitHub Project Board with milestones
 - **Quality Control:** All edits submitted via Pull Requests with peer review
-- **Communication:** [Your primary channel - Telegram/WhatsApp/Discord] + GitHub discussions on issues
+*/
