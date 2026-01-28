@@ -29,7 +29,7 @@ Sub-Questions
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
 | Theory Specialist | Bryan Ang | ... | @username | Methodology (Presence measurement), References |
-| Design Analyst | Kang Ting | ... | @username | Discussion (Presence implications) |
+| Design Analyst | Kang Ting | 2301255 | @ThamK4 | Discussion (Presence implications) |
 //| Data Analyst | ... | ... | @username | Results (Presence), Data Appendix |
 
 #### Locomotion Subteam
