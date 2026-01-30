@@ -10,21 +10,23 @@ This is an empty placeholder for your project files.
 [Your main research question here]
 Primary Research Question
  How do interdependent XR system parameters—specifically rendering, interaction, and locomotion—jointly influence immersion, presence, flow, and cybersickness across VR and mobile XR platforms?
+
 Sub-Questions
 1.How does rendering stability mediate the relationship between visual immersion and cybersickness?
-
-
 2.How do interaction affordances and complexity affect user agency and flow?
-
-
 3.How do locomotion techniques shape the trade-off between spatial presence and comfort?
-
-
 4.How does user adaptation over time influence the balance between immersion and usability?
 
+// better smaller scope,
+one platform but with different configurations to run/play the vr app.
+contrast of better and simple rendering
+then the degree of user interactions between 2 different VR apps.
+{{not about different platform but a vary/contrasting game}}
 
-### Properties of Immersion , system and user, Subteams
+### Properties of Immersion , system and user, Subteam
 
+
+# {Rendering fidelity	Visual stability ↔ presence ↔ sickness}
 #### Rendering Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
@@ -32,6 +34,8 @@ Sub-Questions
 | Design Analyst    | Kang Ting | 2301255 | @ThamK4     | Discussion (Presence implications) |
 //| Data Analyst | ... | ... | @username | Results (Presence), Data Appendix |
 
+
+# {Locomotion methods	Motion ↔ spatial presence ↔ comfort}
 #### Locomotion Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
@@ -39,6 +43,7 @@ Sub-Questions
 | Design Analyst    | Sam Tsang     | 2301552 | @Sam10T         | Discussion (Flow implications) |
 //| Data Analyst | ... | ... | @username | Results (Flow), Data Appendix |
 
+# {User interaction	Agency ↔ affordances ↔ flow}
 #### User-Interaction Subteam
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
