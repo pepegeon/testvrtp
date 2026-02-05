@@ -1,9 +1,9 @@
-How to Go About Qualitative Questions (Mindset)
+# How to Go About Qualitative Questions (Mindset)
 
 Quantitative surveys (IPQ, CSQ, GEQ) tell you what changed.
 Qualitative questions tell you why it changed and where it came from.
 
-[[initialial questions generated]]
+## [[initialial questions generated]]
 “What moment felt the most immersive to you?”
 (You may describe a specific scene, action, or interaction.)
     📌 What this captures:
@@ -41,17 +41,13 @@ Qualitative questions tell you why it changed and where it came from.
     Interaction design
     Control mapping
 
-Why This Set Works (You Can Use This in the Report)
+## Why This Set Works (You Can Use This in the Report)
 
 This trio:
-
-Covers immersion gain
-
-Covers immersion loss
-
-Covers mechanism (movement / interaction)
+    Covers immersion gain
+    Covers immersion loss
+    Covers mechanism (movement / interaction)
 
 Together, they form a closed diagnostic loop:
-
-Where immersion happened → where it failed → why it changed.
+    Where immersion happened → where it failed → why it changed.
 
