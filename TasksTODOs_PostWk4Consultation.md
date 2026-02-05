@@ -237,7 +237,6 @@ XR application selection with **clear contrast**.
 ---
 
 ## Cross-Team Coordination Checks
-s
 - All survey questions must be:
   - Tagged by at least one system property owner
 - All system properties must:
