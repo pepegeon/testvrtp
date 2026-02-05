@@ -48,7 +48,7 @@ then the degree of user interactions between 2 different VR apps.
 | Role | Name | Student ID | GitHub Username | Primary Sections |
 |------|------|------------|-----------------|------------------|
 | Theory Specialist | Branson Leo   | 2301321 | @bransonleo     | Methodology ([Construct] measurement), References |
-| Data Analyst      | Jun Yong      | ....... | @username       | Results ([Construct]), Data Appendix |
+| Data Analyst      | Jun Yong      | 2301226 | @leujy225       | Results ([Construct]), Data Appendix |
 | Design Analyst    | Pin Kai       | 2301388 | @pinkai.g       | Discussion ([Construct] implications) |
 | Design Analyst    | Jovan Chua    | 2301244 | @kaijovan       | Discussion ([Construct] implications) |
 
