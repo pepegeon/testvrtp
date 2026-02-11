@@ -21,7 +21,10 @@
 | **Locomotion Context** | Stationary — no traversal; blocks approach the player |
 
 **Interaction Summary:**
-Beat Saber uses a narrow but highly refined gesture vocabulary. The player performs directional slashes to hit approaching blocks. The core interaction loop is: perceive target direction, time the swing, execute the slash. Controller vibration provides haptic confirmation on hit. The mapping is *semi-natural* — while slashing itself is intuitive, the rhythm-matching layer and directional constraints are abstract game rules imposed on the gesture. There is no object manipulation, menu interaction during gameplay, or complex multi-step input.
+Beat Saber uses a *narrow but highly refined gesture vocabulary*. The player performs directional slashes to hit approaching blocks. The core interaction loop is: perceive target direction, time the swing, execute the slash. Controller vibration provides haptic confirmation on hit. The mapping is *semi-natural* — while slashing itself is intuitive, the rhythm-matching layer and directional constraints are abstract game rules imposed on the gesture. There is no object manipulation, menu interaction during gameplay, or complex multi-step input.
+
+//as VR functions like Kinex/wii and controller had a baby.
+// it is important to gamify a set of movements/steps/gestures to what you can play with. like buttons and directional sticks/pads.
 
 ---
 
@@ -32,11 +35,14 @@ Beat Saber uses a narrow but highly refined gesture vocabulary. The player perfo
 | **Primary Interaction Type** | Gesture-based + direct manipulation |
 | **Input Methods** | Dual motion controllers; full room-scale body tracking |
 | **Affordance Naturalness** | High — grabbing weapons, throwing objects, and dodging are physically mapped |
-| **Unique Mechanics** | Time progresses only when the player physically moves; this ties locomotion directly to interaction pacing |
+| **Unique Mechanics** | Time progresses only when the player physically moves; this ties locomotion directly to interaction *pacing* |
 | **Locomotion Context** | Room-scale stationary — the player moves physically within play space but does not traverse virtually |
 
 **Interaction Summary:**
-Superhot VR features natural grabbing and throwing mechanics. Players pick up weapons (guns, bottles, shurikens) using grip inputs that map directly to hand position and orientation. The defining mechanic is that in-game time is coupled to the player's physical movement speed — standing still freezes the scene. This creates a unique interdependency where interaction pacing is governed by locomotion (body movement). Input mappings are overwhelmingly natural: reach for an object to grab it, swing to throw, aim and squeeze to fire.
+Superhot VR features natural grabbing and throwing mechanics. Players pick up weapons (guns, bottles, shurikens) using grip inputs that map directly to hand position and orientation. The defining mechanic is that in-game time is coupled to the player's physical movement speed — standing still freezes the scene. This creates a *unique interdependency* where interaction pacing is governed by locomotion (body movement). Input mappings are overwhelmingly natural: reach for an object to grab it, swing to throw, aim and squeeze to fire.
+
+//"natural" and created an immersive physics and interaction.
+//I think VR gave the developers a 3D space where users the interactables are immersive and goes pass a game-centric experience happening through a screen.
 
 ---
 
@@ -53,6 +59,9 @@ Superhot VR features natural grabbing and throwing mechanics. Players pick up we
 **Interaction Summary:**
 Job Simulator is built around direct manipulation of everyday objects. The entire gameplay loop is: grab object, use object, observe result. Affordances are natural — a stapler is picked up and pressed down, food is placed on a grill, drinks are poured by tilting. The cartoonish visual style does not diminish the naturalness of input; objects still respond to physically intuitive actions. There is no button-based menu interaction during core gameplay. This application represents the purest direct manipulation paradigm among the candidates.
 
+//idk this game, show picture of gameplay loop please.
+// can add for beat saber and superhot too tyty.
+
 ---
 
 ### Half-Life: Alyx
@@ -66,7 +75,10 @@ Job Simulator is built around direct manipulation of everyday objects. The entir
 | **Locomotion Context** | Player-selectable: teleport, smooth locomotion, or continuous shift |
 
 **Interaction Summary:**
-Half-Life: Alyx combines natural direct manipulation with button-driven systems. Core object interaction (grabbing items, opening drawers, pressing switches) is physically mapped. However, weapon reloading, inventory management, and resin crafting use button inputs and abstract UI overlays. The gravity glove mechanic introduces a trained gesture (flick wrist to attract, catch on arrival) that is initially abstract but becomes natural through repetition. This hybrid approach means the application exercises both natural and abstract interaction pathways within a single session.
+Half-Life: Alyx combines natural direct manipulation with button-driven systems. Core object interaction (grabbing items, opening drawers, pressing switches) is physically mapped. However, weapon reloading, inventory management, and resin crafting use button inputs and abstract UI overlays. The gravity glove mechanic introduces a trained gesture (flick wrist to attract, catch on arrival) that is *initially abstract but becomes natural through repetition*. This hybrid approach means the application exercises both natural and abstract interaction pathways within a single session.
+
+//a different sense of reality is achieved, where the game allows ou to explore and play with objects.
+//and the mechanics of the game allows you feel a non-irl equipment/object.
 
 ---
 
@@ -83,6 +95,8 @@ Half-Life: Alyx combines natural direct manipulation with button-driven systems.
 **Interaction Summary:**
 Rec Room uses predominantly button-based interaction for navigation, social features, and menus. In-game activities vary: paintball involves pointing and trigger-pulling (semi-natural), while room navigation and game selection use abstract button/menu input. The social layer (emotes, voice chat, friend lists) is entirely UI-driven. Compared to Job Simulator or Superhot VR, the affordance naturalness is lower — the player interacts more with interfaces than with physical-analogue objects. This makes Rec Room a strong contrast candidate against direct manipulation apps.
 
+
+
 ---
 
 ### Walkabout Mini Golf
@@ -97,6 +111,9 @@ Rec Room uses predominantly button-based interaction for navigation, social feat
 
 **Interaction Summary:**
 Walkabout Mini Golf centres on a single, highly natural interaction: swinging a golf club. The player grips the controller, positions behind the ball, and physically swings to putt. Force and direction are read from controller velocity and orientation. Beyond putting, interaction is minimal — course selection and multiplayer features use simple menus. The narrow interaction vocabulary makes this app useful as a baseline for direct manipulation with minimal cognitive load.
+
+// I think this can be a good example from the progression to purely controller versus the more trackers and sensors and human-proportion environment to play the golf.
+// does this leads to a higher skill curve or it could be counter productive as gamers seek to 100% utlise game mechanics and not leave it up the real-world interactionss.
 
 ---
 
