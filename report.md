@@ -1,8 +1,8 @@
-# XR User Evaluation Study: Immersion as a Multi-Parameter, Interdependent Phenomenon
+# XR Evaluation Topic: How do interdependent XR system parameters—specifically rendering, interaction, and locomotion—jointly influence immersion, presence, flow, and cybersickness across VR and mobile XR platforms?
 
 **CSD 3121 Term Project**
 
-**Team Members:** Sherman Goh, Jia Zen Cheong, Bryan Ang, Kang Ting, Steven Chew, Sam Tsang, Branson Leo, Jun Yong, Pin Kai, Jovan Chua
+**Team Members:** Sherman Goh, Cheong Jia Zen, Bryan Ang Wei Ze, Tham Kang Ting, Steven Chew Bangxin, Sam Tsang, Branson Leo Yew Siang, Leu Jun Yong, Goh Pin Kai, Jovan Chua Sheng Kai
 
 ---
 
