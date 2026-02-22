@@ -12,7 +12,7 @@
 
 Extended Reality (XR) technologies—spanning virtual reality (VR), augmented reality (AR), and mixed reality (MR)—have rapidly evolved from experimental prototypes to mainstream platforms for gaming, education, training, and social interaction. As XR systems become more sophisticated, understanding what makes these experiences truly immersive has become critical for developers and researchers alike. Immersion in XR is not simply a product of advanced graphics or powerful hardware; rather, it emerges from the complex interplay between system design parameters and human perceptual, cognitive, and motor capabilities.
 
-Traditional approaches to evaluating XR experiences often focus on isolated technical metrics such as frame rate, resolution, or field of view. However, recent research suggests that immersion is fundamentally a multi-parameter phenomenon where rendering fidelity, locomotion design, and interaction methods work interdependently to shape user experience (Bowman & McMahan, 2007; Slater & Wilbur, 1997). A system may excel in visual realism yet fail to immerse users if locomotion causes discomfort or if interaction feels unnatural. Conversely, stylized graphics paired with intuitive controls can produce deeply engaging experiences.
+Traditional approaches to evaluating XR experiences often focus on isolated technical metrics such as frame rate, resolution, or field of view. However, recent research suggests that immersion is fundamentally a multi-parameter phenomenon where rendering fidelity, locomotion design, and interaction methods work interdependently to shape user experience (Bowman & McMahan, 2007; Slater & Wilbur, 1997). A system may excel in visual realism yet fail to immerse users if locomotion causes discomfort or if interaction feels unnatural. Conversely, stylized graphics paired with intuitive controls can produce deeply engaging experiences. // need a slight change
 
 In this study, we adopt a holistic framework that treats **immersion as the degree to which a user's perceptual, cognitive, and motor resources are allocated to the mediated environment rather than the physical world**. This definition recognizes that immersion is not synonymous with realism—a highly stylized VR game can be more immersive than a photorealistic simulation if its design better aligns with human sensory and cognitive systems.
 
@@ -42,7 +42,7 @@ This study investigates the following research question:
 
 **How do interactions between rendering, interaction, and locomotion parameters influence user-perceived immersion, presence, flow, and cybersickness in VR platforms?**
 
-Our objectives are twofold:
+Our objectives:
 
 1. **To identify the relationships between foundational XR parameters** — examining how rendering fidelity, locomotion design, and interaction methods interact to shape presence, flow, and cybersickness. We hypothesize that these parameters are not independent; changes in one dimension may amplify or suppress effects in others.
 
@@ -66,7 +66,7 @@ This study employs a mixed-methods approach, combining standardized quantitative
 
 We adopted a between-subjects design where each participant experienced one of three VR applications (Dagon: by H. P. Lovecraft, Project Wingman, or Propagation) during a single session lasting 5-7 minutes. Immediately following each session, participants completed a battery of validated questionnaires and answered open-ended qualitative questions. This approach allowed us to capture immediate subjective experiences while memory was fresh and to minimize fatigue-related confounds that might arise from extended or repeated VR exposure.
 
-The study treats immersion as a multi-parameter phenomenon shaped by rendering fidelity, locomotion design, and interaction methods. Rather than manipulating these parameters in controlled experimental conditions, we leveraged naturally occurring variation across commercially available VR titles. This ecological validity approach allows us to examine real-world design trade-offs while acknowledging that our findings reflect the specific parameter configurations present in the selected applications.
+The study treats immersion as a multi-parameter phenomenon shaped by rendering fidelity, locomotion design, and user-interaction methods. Rather than manipulating these parameters in controlled experimental conditions, we leveraged naturally occurring variation across commercially available VR games. This ecological validity approach allows us to examine real-world design trade-offs while acknowledging that our findings reflect the specific parameter configurations present in the selected applications.
 
 ### Quantitative Instruments
 
@@ -98,7 +98,7 @@ Cybersickness is a critical constraint on VR immersion. High symptom scores indi
 
 #### Igroup Presence Questionnaire (IPQ)
 
-The IPQ is a 14-item self-report instrument using a 7-point Likert scale (1 = Strongly Disagree to 7 = Strongly Agree) that measures:
+The IPQ is a 14-item self-report instrument using a 7-point scale (1 = Strongly Disagree to 7 = Strongly Agree) that measures:
 
 - **Spatial Presence** (3 items) — "I felt like I was really there in the environment," "I had a sense of being present in the virtual space," "I felt surrounded by the virtual environment"
 - **Involvement** (3 items) — "I was completely captivated by the experience," "I paid more attention to the virtual environment than to the real world," "I was deeply involved in the experience"
@@ -125,23 +125,22 @@ Responses were collected via written reflection immediately after quantitative s
 
 ### Participant Demographics
 
-Six participants completed the study (N = 6). Due to the exploratory, student-led nature of this evaluation, demographic data collection was limited. Participants included:
+Six participants completed the study. Due to the exploratory, student-led nature of this evaluation, demographic data collection was limited. Participants included:
 
 - **Age range:** Young adults (university students and peers)
-- **Gender:** Not systematically recorded
-- **VR Experience:** Mixed—some participants were VR novices while others had prior exposure to VR gaming
+- **VR Experience:** Mixed—some participants were new to VR while others had prior exposure to VR gaming
 
 Participants were assigned to applications based on availability and interest rather than random assignment. This convenience sampling approach is acknowledged as a limitation.
 
-| Participant | Application Tested | Primary Locomotion Method |
-|-------------|-------------------|---------------------------|
-| Sam Tsang | Dagon Lovecraft Horror | Teleportation |
-| Jun Yong | GunVRBox | Physical / Room-Scale |
-| Jack | Propagation | Teleportation |
-| Bryan Ang | A Shopping Trip to Eklan Tor | Physical / Room-Scale |
-| Cheong Jia Zen | Mission ISS | Physical / Room-Scale |
-| Branson | GunVRBox | Smooth locomotion |
-| KT | Project Wingman | Smooth locomotion |
+| Participant | Application Tested           | Primary Locomotion Method |
+|-------------|------------------------------|---------------------------|
+| Sam Tsang   | Dagon Lovecraft Horror       | Teleportation             |
+| Jun Yong    | GunVRBox                     | Physical / Room-Scale     |
+| Jack        | Propagation                  | Teleportation             |
+| Bryan Ang   | A Shopping Trip to Eklan Tor | Physical / Room-Scale     |
+| Jia Zen     | Mission ISS                  | Physical / Room-Scale     |
+| Branson     | GunVRBox                     | Smooth locomotion         |
+| KT          | Project Wingman              | Smooth locomotion         |
 
 *Note: Due to participant availability, some participants tested applications other than the three primary focus titles (Dagon, Project Wingman, Propagation). Data from all applications are included for completeness.*
 
@@ -160,8 +159,6 @@ Each participant followed a standardized protocol:
    - IPQ (reflective presence assessment)
    - GEQ short form (engagement and flow)
    - Qualitative probes (open-ended written responses)
-
-5. **Debriefing** — Optional discussion of experience, technical issues noted, and rest period before departure.
 
 ### Data Analysis Approach
 
@@ -186,15 +183,6 @@ Qualitative probe responses were analyzed using thematic coding:
 
 This approach enabled us to identify which parameters participants spontaneously attributed their experiences to, revealing whether rendering, locomotion, or interaction was most salient in shaping immersion.
 
-#### Cross-Parameter Interdependency Analysis
-
-Following the study's core philosophy that immersion arises from parameter interactions rather than isolated effects, we examined cases where:
-
-- High rendering fidelity was paired with high cybersickness (suggesting locomotion-rendering conflict)
-- Low rendering fidelity was paired with high presence (suggesting interaction or narrative compensated)
-- Contradictory qualitative-quantitative patterns emerged (e.g., high IPQ scores but BiP reports)
-
-These cases were treated as evidence of interdependency and were given priority in the Discussion section.
 
 ### Limitations
 
@@ -202,8 +190,7 @@ This study's exploratory nature imposes several limitations:
 
 - **Small sample size (N = 6)** — Findings are descriptive rather than statistically generalizable.
 - **Convenience sampling** — Participant assignment was not randomized, introducing potential selection bias.
-- **Application heterogeneity** — Participants tested different applications, making direct comparison challenging.
-- **Single-session design** — We did not assess adaptation effects that might emerge with repeated exposure.
+- **Inconsistent application used** — Participants tested different applications, making direct comparison challenging.
 - **Limited demographic recording** — Age, gender, and prior VR experience were not systematically documented.
 
 Despite these constraints, the study's strength lies in its ecological validity (real applications), multi-method triangulation (quantitative surveys + qualitative probes), and theoretical grounding in immersion as a multi-parameter phenomenon.
@@ -233,7 +220,7 @@ The GEQ short form captured flow, engagement, and subjective game experience acr
 | Branson | 2 | 3 | 0 | 4 | 2 | 1 | 0 | 2 | 1 | 4 | 2 | 4 | 4 |
 | KT | 4 | 4 | 0 | 1 | 1 | 2 | 0 | 3 | 4 | 3 | 4 | 3 | 1 |
 
-**Key Observations:**
+**Notable Findings:**
 
 - **Absorption and Concentration:** Scores ranged widely (0-4), with highest absorption reported by KT (Project Wingman, 4) and Cheong Jia Zen (Mission ISS, 4). Lowest absorption was reported by Branson (GunVRBox with smooth locomotion, 2) and Sam Tsang (Dagon, 1).
 
@@ -261,7 +248,7 @@ The CSQ-VR measured six symptom dimensions across three subscales using a 4-poin
 | Branson | GunVRBox | Smooth | 0 | 0 | 0 | 0 | 1 | 0 |
 | KT | Project Wingman | Smooth | 0 | 2 | 2 | 0 | 0 | 0 |
 
-**Key Observations:**
+**Notable Findings:**
 
 - **Zero Cybersickness Cases:** Sam Tsang (teleportation), Bryan Ang (physical movement), and Branson (smooth locomotion) reported no symptoms across all subscales. This suggests that locomotion method alone does not determine cybersickness; rendering stability and individual susceptibility also play roles.
 
@@ -290,7 +277,7 @@ The IPQ measured presence across four subscales using a 7-point scale (1 = Stron
 
 *Subscales: SP = Spatial Presence, INV = Involvement, REAL = Experienced Realism, GP = General Presence, Detach = Detachment from Reality*
 
-**Key Observations:**
+**Notable Findings:**
 
 - **Maximum Presence:** KT (Project Wingman) reported perfect scores (7) across all 14 items, indicating complete subjective presence despite moderate cybersickness symptoms. This demonstrates that presence and comfort can dissociate—high presence does not guarantee low cybersickness.
 
@@ -467,6 +454,16 @@ Bryan noted that room-scale movement felt natural but had limitations: "walking 
 
 ## Discussion
 
+### Potential Cross-Parameter Interdependency Analysis
+
+Following the study's core philosophy that immersion arises from parameter interactions rather than isolated effects, we examined cases where:
+
+- High rendering fidelity was paired with high cybersickness (suggesting locomotion-rendering conflict)
+- Low rendering fidelity was paired with high presence (suggesting interaction or narrative compensated)
+- Contradictory qualitative-quantitative patterns emerged (e.g., high IPQ scores but BiP reports)
+
+These cases were treated as evidence of interdependency and were given priority in the Discussion section.
+
 ### How the Results Address the Research Question
 
 This study investigated **how interactions between rendering, interaction, and locomotion parameters influence user-perceived immersion, presence, flow, and cybersickness in VR platforms**. Our findings reveal that immersion in VR is not determined by any single system parameter operating in isolation but emerges from complex interdependencies and trade-offs between rendering fidelity, locomotion design, and interaction methods.
@@ -583,6 +580,33 @@ As noted in the introduction, VR development currently lacks the stable ecosyste
 - Contribute to open knowledge sharing—document what works and what breaks presence in your projects.
 - Advocate for industry-standard tooling and middleware that handles rendering stability and comfort features out-of-the-box.
 
+---
+
+## Conclusion
+
+This study investigated immersion in VR as a multi-parameter, interdependent phenomenon shaped by rendering fidelity, locomotion design, and user interaction methods. Through a mixed-methods evaluation of six participants experiencing diverse VR applications, we identified four key insights:
+
+1. **Cognitive engagement modulates cybersickness tolerance** — Task-focused activity during smooth locomotion reduced discomfort, suggesting that visual anchoring and attentional demand can mitigate vestibular conflict.
+
+2. **Interaction responsiveness compensates for rendering fidelity** — Applications with stylized graphics but tight input-output loops achieved strong presence, while rendering failures (artifacts, clipping, tracking errors) broke immersion regardless of visual quality.
+
+3. **Stationary locomotion creates a comfort-agency trade-off** — Eliminating movement prevents motion sickness but can violate embodied expectations, requiring diegetic justification or alternative agency mechanisms.
+
+4. **Rendering stability is non-negotiable; rendering fidelity is negotiable** — Consistent frame rates, correct stereo imaging, and low latency are prerequisites for presence, while photorealism is not.
+
+These findings have direct implications for VR game development: prioritize technical stability over graphical fidelity, pair smooth locomotion with engaging tasks, justify or compensate for movement constraints, and invest in responsive interaction as a presence multiplier.
+
+### Informing Future VR Development
+
+The VR industry currently operates in an experimental phase, lacking the stable development conventions and ecosystem maturity of traditional gaming platforms. Our study suggests that **immersion engineering** should focus on parameter interdependencies rather than isolated technical specifications. A balanced design that aligns rendering stability, locomotion comfort, and interaction responsiveness will outperform unbalanced designs that excel in one dimension while failing in others.
+
+For VR to achieve sustainable commercial viability and developer confidence, the industry requires:
+
+- **Standardized performance benchmarks** — Establishing minimum acceptable frame rates, latencies, and tracking accuracies across hardware tiers.
+- **Middleware and tooling** — Engines that handle rendering stability, comfort features, and interaction responsiveness as default rather than custom implementations.
+- **Empirical design guidelines** — Evidence-based best practices for locomotion, interaction, and rendering trade-offs, informed by continued user evaluation research.
+- **Developer knowledge sharing** — Open documentation of what works and what breaks presence, reducing redundant trial-and-error across studios.
+
 ### Limitations and Future Directions
 
 This study's exploratory nature and small sample impose several constraints on generalizability:
@@ -612,33 +636,6 @@ While observers noted visible reactions (exclamations, body movements), we did n
 5. **Diegetic Constraint Effectiveness** — Test whether narrative justifications for locomotion constraints (e.g., "you are strapped into a turret") reduce embodiment conflict compared to unjustified restrictions.
 
 6. **Cross-Platform Comparison** — Extend the study to mobile AR and compare how rendering-locomotion-interaction interdependencies manifest in screen-based vs. headset-based XR.
-
----
-
-## Conclusion
-
-This study investigated immersion in VR as a multi-parameter, interdependent phenomenon shaped by rendering fidelity, locomotion design, and user interaction methods. Through a mixed-methods evaluation of six participants experiencing diverse VR applications, we identified four key insights:
-
-1. **Cognitive engagement modulates cybersickness tolerance** — Task-focused activity during smooth locomotion reduced discomfort, suggesting that visual anchoring and attentional demand can mitigate vestibular conflict.
-
-2. **Interaction responsiveness compensates for rendering fidelity** — Applications with stylized graphics but tight input-output loops achieved strong presence, while rendering failures (artifacts, clipping, tracking errors) broke immersion regardless of visual quality.
-
-3. **Stationary locomotion creates a comfort-agency trade-off** — Eliminating movement prevents motion sickness but can violate embodied expectations, requiring diegetic justification or alternative agency mechanisms.
-
-4. **Rendering stability is non-negotiable; rendering fidelity is negotiable** — Consistent frame rates, correct stereo imaging, and low latency are prerequisites for presence, while photorealism is not.
-
-These findings have direct implications for VR game development: prioritize technical stability over graphical fidelity, pair smooth locomotion with engaging tasks, justify or compensate for movement constraints, and invest in responsive interaction as a presence multiplier.
-
-### Informing Future VR Development
-
-The VR industry currently operates in an experimental phase, lacking the stable development conventions and ecosystem maturity of traditional gaming platforms. Our study suggests that **immersion engineering** should focus on parameter interdependencies rather than isolated technical specifications. A balanced design that aligns rendering stability, locomotion comfort, and interaction responsiveness will outperform unbalanced designs that excel in one dimension while failing in others.
-
-For VR to achieve sustainable commercial viability and developer confidence, the industry requires:
-
-- **Standardized performance benchmarks** — Establishing minimum acceptable frame rates, latencies, and tracking accuracies across hardware tiers.
-- **Middleware and tooling** — Engines that handle rendering stability, comfort features, and interaction responsiveness as default rather than custom implementations.
-- **Empirical design guidelines** — Evidence-based best practices for locomotion, interaction, and rendering trade-offs, informed by continued user evaluation research.
-- **Developer knowledge sharing** — Open documentation of what works and what breaks presence, reducing redundant trial-and-error across studios.
 
 ### Final Reflections
 
@@ -681,6 +678,11 @@ Weibel, D., & Wissmath, B. (2011). Immersion in computer games: The role of spat
 Witmer, B. G., & Singer, M. J. (1998). Measuring presence in virtual environments: A presence questionnaire. *Presence: Teleoperators and Virtual Environments, 7*(3), 225-240.
 
 ---
+
+## Data Appendix
+Include all raw data collected during the study (e.g., survey responses, interview transcripts, observation notes).
+Photos and videos of the study sessions (with participant consent) will greatly enhance the credibility of your report, and will be viewed favorably during grading.
+
 
 **Document Status:** Complete Draft
 **Word Count:** ~11,500 words
