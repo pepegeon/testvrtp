@@ -130,6 +130,7 @@ Walkabout Mini Golf centres on a single, highly natural interaction: swinging a 
 **Interaction Summary:**
 Gorilla Tag collapses interaction and locomotion into a single mechanism: arm movement. The player moves by swinging arms against the ground and walls, simulating gorilla locomotion. There is no object manipulation, weapon use, or tool interaction. The entire experience is kinaesthetic — the interaction *is* the locomotion. This makes Gorilla Tag an outlier: it has no traditional interaction paradigm (no buttons, no object grabbing) but demands high physical engagement. Useful for studying how embodied movement affects flow and presence in the absence of object-level interaction.
 
+       //*  interesting case study as it is quite novel/innovative.
 ---
 
 ### First Steps / First Contact (Meta)
@@ -162,9 +163,15 @@ First Steps/First Contact is Meta's official VR tutorial. It introduces direct m
 **Interaction Summary:**
 Pokemon GO uses standard mobile touch gestures. The primary gameplay interaction — throwing a Pokeball — is a flick/swipe gesture that loosely mimics a throw. All other interaction (inventory, menus, team selection) is tap-based UI. The AR mode overlays Pokemon onto the camera feed, but interaction with the AR element is limited to aiming and throwing. Compared to VR direct manipulation, the interaction fidelity is shallow: 2D input mapped to a 3D-implied action. This makes it a strong contrast to controller-based VR interaction.
 
+// the fidelity is low with catching the pokemon , but it is well done in terms of expanding what a pokemon  trainer does 
+// in  the game.
+// Being  requried to travel/walk around push the sense of exploration and grind to train and catch pokemons.
+// So does  Pokemon GO have an inherent advantage  where people are already sold on being a pokemon trainer and nantic can 
+// source gamefreak's massive library to port  into the game?
+
 ---
 
-### IKEA Place
+### IKEA Place [AR]
 
 | Attribute | Detail |
 |-----------|--------|
@@ -177,9 +184,15 @@ Pokemon GO uses standard mobile touch gestures. The primary gameplay interaction
 **Interaction Summary:**
 IKEA Place is a utility-focused AR app. Users select furniture from a catalogue (tap-based menu), then place it in their real-world space by tapping on a detected surface. Repositioning uses drag gestures. The interaction is functional and abstract — there is no sense of physically handling the furniture. The focus is accuracy of placement rather than experiential engagement. Useful as a contrast to engagement-driven apps: interaction here serves a practical task, not flow or immersion.
 
+// this application is on the aspect of digital twin where people can  have a 1-1 model or match to that environment.
+// it would not be relevant to our immersion discussion. 
+// Maybe we can talk about how users can use this over going in person and seeing the demos,
+// and elaborate how XR compares to in-person experience.
+//  We can use the example of shopping online and brick and motar.
+
 ---
 
-### AR Dragon (Virtual Pet Apps)
+### AR Dragon (Virtual Pet Apps) [AR]
 
 | Attribute | Detail |
 |-----------|--------|
@@ -192,9 +205,11 @@ IKEA Place is a utility-focused AR app. Users select furniture from a catalogue 
 **Interaction Summary:**
 AR Dragon uses simple touch gestures to simulate caregiving interactions (feeding, petting, playing). The AR overlay places a creature in the camera view. Interaction is shallow — a single tap triggers a canned animation response. The engagement loop relies on affective feedback (creature reacts happily) rather than interaction complexity. Useful for studying whether minimal interaction with strong affective feedback can sustain engagement.
 
+// relationship of interaction and feedback and the resulting engagement.
+
 ---
 
-### Merge Cube Apps
+### Merge Cube Apps [AR] { Augmented Reality accessory }
 
 | Attribute | Detail |
 |-----------|--------|
@@ -207,6 +222,16 @@ AR Dragon uses simple touch gestures to simulate caregiving interactions (feedin
 **Interaction Summary:**
 Merge Cube is unique among the candidates: interaction is mediated by a physical object. The user holds a real cube and rotates it; the app renders virtual content aligned to the cube's tracked faces. This provides proprioceptive feedback absent in screen-only AR — the user feels the weight and edges of the cube while seeing virtual content. Input is entirely through physical manipulation of the cube (rotate, tilt, shake). No touchscreen gestures are used during core interaction. This tangible interaction paradigm is the strongest contrast to screen-based mobile AR input.
 
+// what is Proprioceptive feedback?
+// AR enhance the interactivity with the materials.
+// It change the medium and allows for more information/features to be added to the model.
+// This high level of interactive can make the user more engaged and feel the sense of novelty.
+//!! comfortability in AR , where using through a mobile device stops immersion as compared to an AR/VR headset.
+
+/*
+https://arcritic.com/1415/merge-cube-review/ -- interesting thing if we are to look into AR, with how the environment has to be setup.
+The other reason related to accuracy.  Accuracy is very important for AR. I’ve been testing many apps. For ARKit to work well, you need to scan for a surface in a well-lit environment and better off scanning a textured high-contrast surface. I’ve been experiencing jittering many times due to those reasons. I found that some AR frameworks are more prone to jittering. Even Apple’s advanced ARKit isn’t perfect and jittering can occur for different reasons. My Merge Cube experience was flawless without any jittering.
+*/
 ---
 
 ## Interaction Type Classification Summary
@@ -230,6 +255,15 @@ Merge Cube is unique among the candidates: interaction is mediated by a physical
 
 # Deliverable 2: Expected Interaction Impact Notes
 
+These could be the features of user interaction.
+//  so when we breakdown/analyse the games we take observations with this features.
+
+-Direct Manipulation
+-Button-Based
+-Gesture-Based
+-Abstract Mapping
+-Natural Mapping
+
 ## 2.1 Direct Manipulation
 
 **Definition:** The user physically grasps, moves, rotates, and releases virtual objects using tracked hand/controller positions. The virtual object responds as a physical-world analogue.
@@ -239,7 +273,7 @@ Merge Cube is unique among the candidates: interaction is mediated by a physical
 ### Expected Impact
 
 **Flow:**
-Direct manipulation supports flow by providing immediate, continuous feedback. The user's physical action produces a visible, proportional result with minimal input-output delay. This supports the *clear feedback* and *action-awareness merging* components of flow (Csikszentmihalyi, 1990). Challenge-skill balance is maintained when object behaviour is predictable — the user does not need to learn abstract mappings, reducing the cognitive barrier to entering a flow state.
+Direct manipulation supports flow by providing *immediate, continuous feedback*. The user's physical action produces a visible, proportional result with minimal input-output delay. This supports the *clear feedback* and *action-awareness merging* components of flow (Csikszentmihalyi, 1990). Challenge-skill balance is maintained when object behaviour is predictable — the user does not need to learn abstract mappings, reducing the cognitive barrier to entering a flow state.
 
 **Agency:**
 Strong positive effect. Direct manipulation provides the most direct causal link between user action and virtual outcome. When a user reaches for an object and it responds to their hand position and grip force, the sense of "I caused this" is reinforced. This supports perceived agency and control.
@@ -247,19 +281,19 @@ Strong positive effect. Direct manipulation provides the most direct causal link
 **Presence:**
 Direct manipulation strengthens spatial presence because it confirms the user's body schema within the virtual environment. Interacting with objects as though they are physically real reinforces the spatial model ("I am here, and these objects are here with me"). IPQ items related to spatial presence and environmental responsiveness are expected to score higher with direct manipulation.
 
-**Cognitive Load:**
-Low extraneous cognitive load. Natural affordances reduce the need to learn controls — users apply real-world interaction knowledge. However, if object physics are unreliable or inconsistent (e.g., objects clip through surfaces, gravity behaves unexpectedly), cognitive load increases as the user must compensate for system errors.
+**Cognitive Load:** (to question the interaction/ immersion)
+Low extraneous cognitive load. Natural affordances reduce the need to learn controls — users apply real-world interaction knowledge. However, if object physics are unreliable or inconsistent (e.g., objects clip through surfaces, gravity behaves unexpectedly), cognitive load increases as the *user must compensate* for system errors.
 
 ### Cross-Parameter Interdependencies
 
 - **Rendering:** If rendering instability causes visual lag between the user's hand movement and the object's response (motion-to-photon latency), perceived interaction naturalness degrades. High rendering fidelity amplifies the benefit of direct manipulation; low fidelity can undermine it.
-- **Locomotion:** Stationary locomotion contexts (Job Simulator, Walkabout Mini Golf) remove navigational cognitive load, allowing the user to focus entirely on manipulation. When combined with traversal-based locomotion, the user must divide attention between navigation and object interaction.
+- **Locomotion:** Stationary locomotion contexts (Job Simulator, Walkabout Mini Golf) *remove navigational cognitive load*, allowing the user to focus entirely on manipulation. When combined with traversal-based locomotion, the user must divide attention between navigation and object interaction.
 
 ---
 
 ## 2.2 Button-Based Interaction
 
-**Definition:** The user presses physical buttons on a controller or taps UI elements on a screen to trigger discrete actions. The mapping between input and effect is mediated by interface conventions (menus, icons, input prompts).
+**Definition:** The user presses physical buttons on a controller or taps UI elements on a screen to trigger discrete actions. The mapping between input and effect is mediated by *interface conventions* (menus, icons, input prompts).
 
 **Apps exemplifying this type:** Rec Room, Half-Life: Alyx (inventory/weapon systems), IKEA Place, Pokemon GO (menus)
 
@@ -268,57 +302,69 @@ Low extraneous cognitive load. Natural affordances reduce the need to learn cont
 **Flow:**
 Button-based interaction can support flow when the button mappings are well-learned and the response is immediate (e.g., experienced gamers navigating familiar menus). However, for novel users or complex menu hierarchies, button interaction interrupts flow by requiring the user to recall mappings or read UI labels. The *action-awareness merging* component of flow is weaker when input is mediated by an interface layer.
 
-**Agency:**
-Moderate. The user's action (button press) produces a result, but the relationship is abstract — pressing "X" to open a door does not feel like physically opening a door. Agency is maintained at a functional level ("I chose to open the door") but weakened at an experiential level ("I did not feel like I opened the door").
+**Agency:** (to interact with the virtual world)
+Moderate. The user's action (button press) produces a result, but the relationship is abstract — pressing "X" to open a door does not feel like physically opening a door. Agency is *maintained at a functional level* ("I chose to open the door") but weakened at an experiential level ("I did not feel like I opened the door").
 
-**Presence:**
+**Presence:** (interfaces requires navigating with pulls people from immersion)
 Button-based interaction can weaken presence. Each time the user must attend to a UI overlay, controller button layout, or menu screen, their attention is redirected from the virtual environment to the interface layer. This is particularly relevant for IPQ items measuring involvement ("I was completely captivated by the experience") and spatial presence ("I felt surrounded by the virtual environment").
 
-**Cognitive Load:**
+**Cognitive Load:** 
 Higher extraneous cognitive load compared to direct manipulation. The user must maintain a mental model of button-to-action mappings. Complex systems (e.g., Half-Life: Alyx's weapon selection, Rec Room's social menus) add load. However, once mappings are learned, cognitive demand decreases — so exposure duration matters.
+
+// this maybe talks about the trade off  of requiring some UI/UX tools in order to make the game/experience more enjoyable.
+// I think UI would be necessary as a person is playing a game and needs to weigh between its risks and resources to make decisions.
 
 ### Cross-Parameter Interdependencies
 
 - **Rendering:** Button-based UI elements (menus, HUD) are less sensitive to rendering fidelity than spatial interactions. However, if UI elements render poorly (e.g., text unreadable at VR resolution), usability degrades independently of environmental rendering quality.
-- **Locomotion:** Button-based interaction is locomotion-agnostic — it works identically whether the user is teleporting, moving smoothly, or standing still. This is a practical advantage but also means button interaction does not contribute to spatial presence the way embodied interaction does.
+- **Locomotion:** Button-based interaction is locomotion-agnostic — it works identically whether the user is teleporting, moving smoothly, or standing still. *This is a practical advantage but also means button interaction does not contribute to spatial presence the way embodied interaction does.
 
 ---
 
-## 2.3 Gesture-Based Interaction
+## 2.3 Gesture-Based Interaction ( which results into input ) (requires sensors and logic)
 
-**Definition:** The user performs recognisable physical movements (slashing, pointing, throwing, waving) that are tracked and interpreted by the system as input commands. The gesture may be natural (throwing resembles a real throw) or trained (a specific wrist flick to activate a game mechanic).
+**Definition:** The user performs recognisable physical movements (slashing, pointing, throwing, waving) that are *tracked and interpreted by the system as input commands*. The gesture may be *natural* (throwing resembles a real throw) or *trained* (a specific wrist flick to activate a game mechanic).
 
 **Apps exemplifying this type:** Beat Saber (slashing), Superhot VR (throwing, dodging), Gorilla Tag (arm-swing), Half-Life: Alyx (gravity glove flick)
 
 ### Expected Impact
 
-**Flow:**
-Gesture-based interaction has the highest potential for flow among the interaction types, particularly when gestures are rhythmic or skill-based. Beat Saber exemplifies this: the slash gesture, when aligned with musical rhythm and visual targets, creates a tight perception-action loop that drives absorption. The *challenge-skill balance* component of flow is directly influenced by gesture difficulty and timing requirements. When gestures are well-calibrated to user ability, flow is strongly supported.
+**Flow:** (Absorption)
+Gesture-based interaction has the highest potential for flow among the interaction types, particularly when gestures are rhythmic or skill-based. Beat Saber exemplifies this: the slash gesture, when aligned with musical rhythm and visual targets, creates a *tight perception-action loop* that drives absorption. The *challenge-skill balance* component of flow is directly influenced by gesture difficulty and timing requirements. When gestures are well-calibrated to user ability, flow is strongly supported.
+
+//tight perception-action loop
+//challenge-skill balance*
+//this disruption of flow due to failure or poor responsiveness might result into very bad cybersickness.
 
 **Agency:**
 High when gestures are responsive and reliable. The physicality of gestures — using the whole arm to slash or throw — engages proprioception and reinforces the sense that the user's body is the input device. Agency is weakened if gesture recognition fails or misinterprets input (e.g., a slash not registering, a throw going in the wrong direction).
 
+//gestures are responsive and reliable
+//recognition and interpretion
+
 **Presence:**
 Gesture interaction supports embodied presence — the user's body is active in the virtual space. This is distinct from the spatial presence supported by direct manipulation. Gesture-based interaction strengthens the feeling of being physically *in* the environment and *acting upon* it. IPQ items related to involvement and spatial presence are expected to benefit.
+
+//*embodied presence
 
 **Cognitive Load:**
 Variable. Natural gestures (throwing, slashing) have low cognitive load because they leverage existing motor skills. Trained gestures (gravity glove flick, specific combo inputs) have an initial learning cost that decreases with practice. Gesture-based interaction can also impose physical fatigue, which is distinct from cognitive load but similarly limits sustained engagement.
 
 ### Cross-Parameter Interdependencies
 
-- **Rendering:** Gesture feedback depends heavily on visual confirmation. If the user slashes in Beat Saber and the block destruction animation is delayed due to frame drops, the feedback loop is broken. Rendering stability is a prerequisite for gesture-based flow.
+- **Rendering:** Gesture feedback depends heavily on visual confirmation. If the user slashes in Beat Saber and the block destruction animation is delayed due to frame drops, the feedback loop is broken. *Rendering stability* is a prerequisite for gesture-based flow.
 - **Locomotion:** In apps where gesture and locomotion overlap (Gorilla Tag, Superhot VR), the two parameters are inseparable. Arm-swing locomotion *is* gesture interaction. This creates a compound variable that must be acknowledged in analysis — changes in one cannot be isolated from the other.
 
 ---
 
-## 2.4 Abstract vs Natural Mapping
+## 2.4 Abstract vs Natural Mapping (how the input to close to the action)
 
 **Definition:** This is not a separate interaction type but a spectrum applied to any interaction. *Natural mapping* means the physical input resembles the virtual action (swing arm to swing sword). *Abstract mapping* means the input is a learned convention (press button to swing sword).
 
 ### Expected Impact
 
 **Flow:**
-Natural mappings reduce the barrier to flow because they do not require interface learning. Abstract mappings can still support flow once learned, but the onboarding period is longer and more susceptible to errors that interrupt engagement.
+Natural mappings reduce the *barrier to flow* because they do not require interface learning. Abstract mappings can still support flow once learned, but the onboarding period is longer and more susceptible to errors that interrupt engagement.
 
 **Agency:**
 Natural mappings produce stronger perceived agency because the causal chain between action and effect is transparent. Abstract mappings add an interface layer that distances the user from the effect ("I pressed X" vs "I reached out and grabbed it").
