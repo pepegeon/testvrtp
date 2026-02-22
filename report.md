@@ -410,6 +410,28 @@ KT reported "the dogfighting sequences feel like you are the actual pilot on a m
 
 **Key Finding:** Project Wingman demonstrates **task-focused flow can mitigate cybersickness**—when engaged in combat, participants tolerated smooth locomotion that became uncomfortable during idle moments. This suggests **cognitive load and visual anchoring modulate vestibular conflict**. However, tracking errors (head desyncing) directly break presence by forcing manual intervention. The application achieved **maximum IPQ scores (KT = 7 across all items)** despite causing moderate cybersickness, confirming that **presence and comfort can dissociate**.
 
+#### A Shopping Trip to Eklan Tor
+
+**Immersive Moments:**
+Bryan Ang reported peak immersion through environmental scale and spatial presence, noting that "the sense of being inside the space was what stood out the most—the environment's scale felt convincing and walking around it felt natural."
+
+*Parameter Attribution:* **Rendering (environmental scale, spatial composition) + Locomotion (room-scale physical movement)**
+*Outcome:* **Presence (spatial presence driven by environmental scale independent of visual realism)**
+
+**Break-in-Presence Events:**
+Bryan reported no significant break-in-presence events: "nothing really pulled me out of it. Even though the visuals were not particularly impressive, the experience stayed consistent throughout."
+
+*Parameter Attribution:* **Rendering (low texture/model fidelity) — visual consistency maintained despite low graphical quality**
+*Outcome:* **Presence sustained (absence of artifacts preserved spatial coherence)**
+
+**Locomotion/Interaction Impact:**
+Bryan noted that room-scale movement felt natural but had limitations: "walking around felt natural for the most part, though I was limited in how far I could go. What I noticed more was how the environment responded to what I did—it felt realistic even when it didn't look it."
+
+*Parameter Attribution:* **Locomotion (room-scale, natural but spatially constrained) + Interaction (high environmental responsiveness)**
+*Outcome:* **Presence (interaction responsiveness compensating for low display fidelity)**
+
+**Key Finding:** A Shopping Trip to Eklan Tor demonstrates that **rendering stability, not rendering fidelity, is the prerequisite for presence**. Despite low-quality textures and models (REAL1 = 3), no visual artifacts or tracking failures emerged to break spatial coherence, and strong environmental responsiveness (REAL2/REAL3 = 7) sustained experienced realism. This directly reinforces Pattern 2: **interaction fidelity can compensate for low graphical realism** when visual consistency is maintained. Zero cybersickness aligns with physical locomotion's 1:1 movement mapping.
+
 ### Cross-Application Patterns
 
 #### Pattern 1: Locomotion-Cybersickness Relationship Is Moderated by Task Focus
