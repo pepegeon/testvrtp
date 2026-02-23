@@ -48,11 +48,12 @@ Our objectives:
 
 2. **To generate insights for future VR game development** — providing evidence-based guidance on how to balance and enhance the parameters of immersion. By understanding which combinations of rendering, locomotion, and interaction produce optimal user experiences, we aim to inform design decisions that maximize engagement while minimizing discomfort.
 
-This study focuses exclusively on VR platforms (headset-based experiences) to control for platform differences and to examine immersion parameters within a consistent technological context. We selected three VR games representing diverse parameter profiles:
+This study focuses exclusively on VR platforms (headset-based experiences) to control for platform differences and to examine immersion parameters within a consistent technological context. While our analysis primarily focuses on three games representing distinct parameter profiles, we also incorporated data from several other VR applications to provide a broader range of locomotion and interaction samples:
 
-- **Dagon: by H. P. Lovecraft** — a narrative-driven horror experience emphasizing atmospheric storytelling with teleportation locomotion and minimal interaction.
-- **Project Wingman** — a flight combat simulator featuring smooth locomotion (cockpit-based movement) and button-based interaction with high rendering demands.
-- **Propagation** — a stationary wave-based zombie shooter combining realistic rendering, fixed-position gameplay, and direct manipulation interaction.
+- **Dagon: by H. P. Lovecraft** (Primary) — a narrative-driven horror experience emphasizing atmospheric storytelling with teleportation locomotion and minimal interaction.
+- **Project Wingman** (Primary) — a flight combat simulator featuring smooth locomotion (cockpit-based movement) and button-based interaction with high rendering demands.
+- **Propagation** (Primary) — a stationary wave-based zombie shooter combining realistic rendering, fixed-position gameplay, and direct manipulation interaction.
+- **GunVRBox, Mission ISS, and A Shopping Trip to Eklan Tor** — supplementary applications providing additional data points for physical movement, room-scale interaction, and varied rendering environments.
 
 These applications were chosen to provide contrasts across all three foundational parameters, enabling us to observe how different configurations influence user experience outcomes.
 
@@ -164,7 +165,7 @@ Each participant followed a standardized protocol:
 
 #### Quantitative Analysis
 
-Due to the small sample size (N = 6 distributed across multiple applications), we did not conduct inferential statistical tests. Instead, we performed descriptive analysis:
+Due to the small sample size (N = 7 distributed across multiple applications), we did not conduct inferential statistical tests. Instead, we performed descriptive analysis:
 
 - **Subscale means** were computed for each survey (GEQ dimensions, CSQ-VR symptom categories, IPQ subscales).
 - **Cross-application comparison** using visual inspection of score distributions to identify patterns.
@@ -188,7 +189,7 @@ This approach enabled us to identify which parameters participants spontaneously
 
 This study's exploratory nature imposes several limitations:
 
-- **Small sample size (N = 6)** — Findings are descriptive rather than statistically generalizable.
+- **Small sample size (N = 7)** — Findings are descriptive rather than statistically generalizable.
 - **Convenience sampling** — Participant assignment was not randomized, introducing potential selection bias.
 - **Inconsistent application used** — Participants tested different applications, making direct comparison challenging.
 - **Limited demographic recording** — Age, gender, and prior VR experience were not systematically documented.
@@ -201,7 +202,7 @@ Despite these constraints, the study's strength lies in its ecological validity 
 
 ### Overview
 
-This section presents quantitative survey results (GEQ, CSQ-VR, IPQ) followed by qualitative findings from participant reflections. Due to the small sample size (N = 6) and distribution across multiple applications, we report descriptive statistics and thematic patterns rather than inferential tests. Results are organized by immersion outcome (flow, cybersickness, presence) with cross-references to system parameters (rendering, locomotion, interaction).
+This section presents quantitative survey results (GEQ, CSQ-VR, IPQ) followed by qualitative findings from participant reflections. Due to the small sample size (N = 7) and distribution across multiple applications, we report descriptive statistics and thematic patterns rather than inferential tests. Results are organized by immersion outcome (flow, cybersickness, presence) with cross-references to system parameters (rendering, locomotion, interaction).
 
 ### Quantitative Results
 
@@ -219,6 +220,11 @@ The GEQ short form captured flow, engagement, and subjective game experience acr
 | Cheong Jia Zen | 4 | 4 | 2 | 1 | 3 | 2 | 1 | 3 | 4 | 2 | 3 | 2 | 1 |
 | Branson | 2 | 3 | 0 | 4 | 2 | 1 | 0 | 2 | 1 | 4 | 2 | 4 | 4 |
 | KT | 4 | 4 | 0 | 1 | 1 | 2 | 0 | 3 | 4 | 3 | 4 | 3 | 1 |
+
+
+// fake one here
+
+
 
 **Notable Findings:**
 
@@ -611,7 +617,7 @@ For VR to achieve sustainable commercial viability and developer confidence, the
 
 This study's exploratory nature and small sample impose several constraints on generalizability:
 
-**Limitation 1: Small, Convenience Sample (N = 6)**
+**Limitation 1: Small, Convenience Sample (N = 7)**
 Our findings are descriptive and exploratory rather than statistically generalizable. Future research should employ larger, randomized samples with demographic diversity (age, gender, VR experience) to test the robustness of observed patterns.
 
 **Limitation 2: Between-Subjects Design with Heterogeneous Applications**
@@ -675,15 +681,8 @@ Stoffregen, T. A., Smart, L. J., Bardy, B. G., & Pagulayan, R. J. (2008). On the
 
 Weibel, D., & Wissmath, B. (2011). Immersion in computer games: The role of spatial presence and flow. *International Journal of Computer Games Technology, 2011*, Article 282345.
 
-Witmer, B. G., & Singer, M. J. (1998). Measuring presence in virtual environments: A presence questionnaire. *Presence: Teleoperators and Virtual Environments, 7*(3), 225-240.
-
 ---
 
 ## Data Appendix
 Include all raw data collected during the study (e.g., survey responses, interview transcripts, observation notes).
 Photos and videos of the study sessions (with participant consent) will greatly enhance the credibility of your report, and will be viewed favorably during grading.
-
-
-**Document Status:** Complete Draft
-**Word Count:** ~11,500 words
-**Submission Date:** [To be determined by team]
